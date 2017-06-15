@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="JS代码,相册代码,JS广告代码,JS特效代码" />
+<meta name="description" content="此代码内容为AJAX Photo Gallery，属于站长常用代码，更多相册代码代码请访问懒人图库JS代码频道。" />
+<title>AJAX Photo Gallery_懒人图库</title>
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body onload="slideShow()">
+<div id="gallery">
+  <div id="imagearea">
+    <div id="image">
+      <a href="javascript:imgNav(-1)" class="imgnav " id="previmg"></a>
+      <a href="javascript:imgNav(1)" class="imgnav " id="nextimg"></a>
+    </div>
+  </div>
+  <div id="thumbwrapper">
+    <div id="thumbarea">
+      <ul id="thumbs">
+        <li value="1"><img src="thumbs/1.jpg" width="179" height="100" alt="" /></li>
+        <li value="2"><img src="thumbs/2.jpg" width="179" height="100" alt="" /></li>
+        <li value="3"><img src="thumbs/3.jpg" width="179" height="100" alt="" /></li>
+        <li value="4"><img src="thumbs/4.jpg" width="179" height="100" alt="" /></li>
+        <li value="5"><img src="thumbs/5.jpg" width="179" height="100" alt="" /></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+var imgid = 'image';
+var imgdir = 'fullsize';
+var imgext = '.jpg';
+var thumbid = 'thumbs';
+var auto = true;
+var autodelay = 5;
+</script>
+<script type="text/javascript" src="js/slide.js"></script>
+
+</body>
+</html>
