@@ -1,0 +1,38 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+#docs-navbar{
+	margin-top:50px;
+}
+
+
+.wrapper,#container{
+	width: 970px;
+	margin: 0 auto;
+}
+
+.demo li {
+    list-style-type: none;
+    display: inline-block;
+}
+li img {
+    height: 200px;
+    border: 5px solid #999;
+    margin: 5px;
+}
+
+.highlight{
+	overflow: auto;
+}
+
+.heart{
+	color: red;
+}
+.demo ul.links li{
+                padding:5px;
+
+            }
+            .demo ul.links li a{font-size: 14px;color: #6699cc;text-decoration: none;}
+            .demo ul.links li a:hover{font-size: 14px;text-decoration: none;}
